@@ -1,0 +1,20 @@
+Static
+Reaction: single key: ON
+Reaction: single key: Off
+Stars twinkle
+Rain drops
+Colourful
+Breathing
+Neon
+Spectrum
+Rainbow
+Prismo
+Circle
+Reaction: excape beam
+Reaction: shockwave
+Reaction: explosion
+Escape
+Sine wave
+Wave
+Shuttle
+Customize
