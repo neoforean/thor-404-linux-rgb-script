@@ -11,7 +11,7 @@ sudo python3 -m pip install pyusb
 format: `sudo python3 thor.py --rgb RRGGBB` (no hashtag)<br>
 example:
 ```
-voi@pc:~/Documents/replay$ sudo python3 thor.py --rgb 7700e0
+sudo python3 thor.py --rgb 7700e0
 ```
 > it will hopefully output `[21/21]`
 
