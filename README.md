@@ -39,6 +39,34 @@ list available presets
 sudo python3 thorctl.py --list
 ```
 
+### technical
+the main packet's offsets:
+| Offset | Meaning           |
+| ------ | ----------------- |
+| 0x00   | effect ID         |
+| 0x01   | red               |
+| 0x02   | green             |
+| 0x03   | blue              |
+| 0x08   | multicolor toggle |
+| 0x09   | brightness        |
+| 0x0A   | speed             |
+| 0x0B   | direction         |
+| 0x0E   | 0xAA              |
+| 0x0F   | 0x55              |
+
+> **example `120000ff00000000011002010000aa55`**
+> | Field      | Value            |
+> | ---------- | ---------------- |
+> | effect     | `0x12` = wave    |
+> | RGB        | `0000ff` = blue  |
+> | multicolor | `0x01` = enabled |
+> | brightness | `0x10` = 16      |
+> | speed      | `0x02` = 2       |
+> | direction  | `0x01` = right   |
+
+there is a `Custom` preset which allows for per-key lighting, but for now i'm happy with this controller
+
+
 ### notes
 
 > [!note]
