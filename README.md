@@ -44,6 +44,3 @@ sudo python3 thorctl.py --list
 > [!note]
 > ### AI disclaimer
 > the python script was made in a big part with AI. however, i did use virtualbox with USB passthrough and went into wireshark, captured, and examined the packets being sent. tshark was used to filter the .pcapng files in the `effects` folder. i do know how the main packet is structured. i did confirm which exact packets were essential, and i did confirm that the script works on my keyboard.
-
-> [!tip]
-> the keyboard (at least my model) likes shifting the LEDs towards blue, so to achieve a purple, the input colour has to be closer to pink
