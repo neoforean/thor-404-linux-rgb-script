@@ -69,14 +69,11 @@ the main packet's offsets:
 > | speed      | `0x02` = 2       |
 > | direction  | `0x01` = right   |
 
-there is a `Custom` preset which allows for per-key lighting, but for now i'm happy with this controller
-
-
 ### notes
 
 > [!note]
 > ### AI disclaimer
-> the python script was made in a big part with AI. however, i did use virtualbox with USB passthrough and went into wireshark, captured, and examined the packets being sent. tshark was used to filter the .pcapng files in the `effects` folder. only the essential packets are being sent, and the script is confirmed to be working on my hardware.
+> the python script was made in a big part with AI. however, i did use virtualbox with USB passthrough and went into wireshark, captured, and examined the packets being sent. tshark was used to filter the .pcapng files in the [Resources](https://github.com/neoforean/thor-404-linux-rgb-script/tree/resources)' `*_txt` folders. only the essential packets are being sent, and the script is confirmed to be working on my hardware.
 
 > [!tip]
 > ### Resources
