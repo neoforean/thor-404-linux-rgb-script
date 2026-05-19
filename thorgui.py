@@ -216,7 +216,7 @@ def load_keymap(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
-    if "keys" not in data or "layout_rows" not in data:
+    if "keys" not in data:
         raise ValueError(f"invalid keymap file: {path}")
 
     return data
