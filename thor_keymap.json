@@ -1,14 +1,4 @@
 {
-  "meta": {
-    "device": "Thor 404 TKL",
-    "capture_source": "red_keys_hexdump.zip",
-    "report_size_bytes": 64,
-    "per_key_encoding": "80RRGGBB",
-    "notes": [
-      "Primary key position is the dword in lines 12..19 whose value becomes 80ff0000 in the red captures.",
-      "escape.txt also contains extra non-default dwords in line 19; they are preserved in extra_dwords."
-    ]
-  },
   "layout_rows": [
     [
       "escape",
