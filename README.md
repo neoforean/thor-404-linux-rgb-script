@@ -29,19 +29,19 @@ sudo python3 thorgui.py
 
 it also accepts arguments (press apply in gui to apply)
 ```
-sudo python3 thorctl.py --effect static --rgb 0000ff
+sudo python3 thorgui.py --effect static --rgb 0000ff
 ```
 
 
 ```
-sudo python3 thorctl.py --effect rainbow --multicolor --direction down
+sudo python3 thorgui.py --effect rainbow --multicolor --direction down
 ```
 
 ---
 
 list available presets
 ```
-sudo python3 thorctl.py --list
+sudo python3 thorgui.py --list
 ```
 
 ### technical
