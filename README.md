@@ -3,10 +3,10 @@ Control RGB lighting on the Genesis Thor 404 TKL keyboard under Linux.
 
 Supports per-key "custom" mode, custom colour, presets, brightness adjustment & speed control.
 
-> <img width="643" height="442" alt="image" src="https://github.com/user-attachments/assets/a2aa4736-8163-4083-8f8a-1185aa3984d2" />
+> <img alt="The main window's GUI" width="643" height="442" alt="image" src="https://github.com/user-attachments/assets/a2aa4736-8163-4083-8f8a-1185aa3984d2" />
 
 Custom mode:
-> <img width="1249" height="489" alt="image" src="https://github.com/user-attachments/assets/66305902-1c92-4a38-81a7-20f138edd5fc" />
+> <img alt="The per-key lighting editor window GUI for the 'Custom' preset" width="1249" height="489" alt="image" src="https://github.com/user-attachments/assets/66305902-1c92-4a38-81a7-20f138edd5fc" />
 
 ---
 
@@ -75,7 +75,7 @@ the main packet's offsets:
 
 > [!note]
 > ### AI disclaimer
-> the python script was made in a big part with AI. however, i did use virtualbox with USB passthrough and went into wireshark, captured, and examined the packets being sent. tshark was used to filter the .pcapng files in the [Resources](https://github.com/neoforean/thor-404-controller/tree/resources)' `*_txt` folders. only the essential packets are being sent, and the script is confirmed to be working on my hardware.
+> the python script was made in a big part with AI. USB packets were captured and verified using VirtualBox with USB passthrough, Wireshark and tshark. This software sends only the essential packets. Tested and working on a real Thor 404 TKL keyboard.
 
 > [!tip]
 > ### Resources
