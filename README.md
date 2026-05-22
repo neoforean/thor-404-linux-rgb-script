@@ -1,5 +1,7 @@
-## Thor 404 TKL controller for Linux
-Supports custom per-key configuration, different lighting modes, and user-defined colours.
+# Genesis Thor 404 TKL RGB Controller for Linux
+Control RGB lighting on the Genesis Thor 404 TKL keyboard under Linux.
+
+Supports per-key "custom" mode, custom colour, presets, brightness adjustment & speed control.
 
 > <img width="643" height="442" alt="image" src="https://github.com/user-attachments/assets/a2aa4736-8163-4083-8f8a-1185aa3984d2" />
 
